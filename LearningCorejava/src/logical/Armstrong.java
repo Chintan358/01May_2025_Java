@@ -3,7 +3,7 @@ package logical;
 public class Armstrong {
     public static void main(String[] args) {
 
-        int number = 143;
+        int number = 153;
         int temp = number;
         //1 + 125 + 27 = 153
         int sum = 0;
