@@ -7,6 +7,10 @@ public class ArrayDemo1 {
 
         Scanner sc  =new Scanner(System.in);
         System.out.println("enter size of an array : ");
+
+
+
+
         int size = sc.nextInt();
         int a[] = new int[size];
 
