@@ -23,7 +23,8 @@ public class ArrayCopy {
             int[] b = {1,2,3,4,5};
             int[] c = new int[a.length+b.length];
 
-        for (int i = 0; i <a.length; i++) {
+        for(int i = 0; i <a.length; i++)
+        {
             c[i] = a[i];
         }
 
