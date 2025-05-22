@@ -1,5 +1,7 @@
 package logical;
 
+import oops.Emp;
+
 public class Armstrong {
     public static void main(String[] args) {
 
@@ -20,5 +22,8 @@ public class Armstrong {
         else {
             System.out.println(temp+" : is not armstrong");
         }
+
+
+
     }
 }

@@ -134,5 +134,37 @@ data member and function member can be of 2 types :
 static / class member
 non-static [default] / instance member
 
+**********************************************
+Inheritance :
+
+create a class using propry of exisiting class :
+
+from where we inherits the property :
+parent class/ super class/ base class
+
+in which class we inherits the property :
+child class/ sub class/ derived class
+
+
+single
+multiple
+multilevel
+hirarchicle
+hybrid
+
+
+Access Modifier :
+
+public : everywhere
+private : within class only
+protected : within package , outside the package in a subclass
+default : withing package
+
+
+Encaptulation :
+
+
+
+
 
 
