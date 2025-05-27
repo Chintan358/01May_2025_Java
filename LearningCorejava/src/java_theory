@@ -163,6 +163,39 @@ default : withing package
 
 Encaptulation :
 
+Polymorphism
+one name - many forms
+
+Compiletime - mothodoverloading
+Runtime- methodoerriding
+
+
+Abstraction :
+
+Abstract class :
+partial abstraction
+-it contains abstract and instance method both
+
+Interface :
+fully abstraction
+-it contains only abstract methods
+
+Abstract method :
+method without body
+
+ex :
+public void display();
+
+
+Instance method
+ex :
+public void display()
+{
+    //body
+}
+
+
+
 
 
 
