@@ -3,11 +3,9 @@ package impclasses;
 public class I003_StringPractical {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
-        String str = "sun rises in east gfg";
-=======
+
         String str = "sun rises in east";
->>>>>>> 7903638b9c755a8784da33ced387e7493e7106a7
+
 
         //east in rises sun
         //tsae ni sesir nus
@@ -15,7 +13,7 @@ public class I003_StringPractical {
         //east rises in sun
 
 
-<<<<<<< HEAD
+
         String words[] = str.split(" ");
 
         for(int i=words.length-1;i>=0;i--)
@@ -62,8 +60,7 @@ public class I003_StringPractical {
             System.out.println(words[i]+" : "+words[i].length());
         }
 
-=======
->>>>>>> 7903638b9c755a8784da33ced387e7493e7106a7
+
 
     }
 }

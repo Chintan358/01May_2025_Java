@@ -19,11 +19,7 @@ public class I002_StrngMethods {
         System.out.println(str.endsWith("st"));
         System.out.println(str.trim());
 
-<<<<<<< HEAD
-     
-=======
 
->>>>>>> 7903638b9c755a8784da33ced387e7493e7106a7
         String words[] =  str.split(" ");
         for (int i = 0; i < words.length; i++) {
 

@@ -207,7 +207,18 @@ Random
 Date
 
 
+**********************
+FileIO :
 
+stream : flow of data from source to destination
+
+bytestream :
+FileInputStream
+FileOutputStream
+
+char. stream
+FileReader
+FileWriter
 
 
 
