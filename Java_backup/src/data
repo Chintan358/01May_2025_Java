@@ -1,23 +1,25 @@
-1
-12
-123
-1234
-12345
+OOPs :
+
+class
+object
+inheritance
+polymorephism
+encaptulation
+abstraction
 
 
-1
-23
-456
-78910
+class :
+logical entity
+-collection of datamemeber and function memeber of an object
 
-5
-45
-345
-2345
-12345
+object :
+realtime entity
 
-0
-10
-010
-1010
-01010
+state : data memeber / variables
+behaviour : function memebr / methods
+
+memebers can be 2 types :
+static : single copy in memory /class memebr
+non-static : create multiple copy based on object reaction / instance memeber
+
+
