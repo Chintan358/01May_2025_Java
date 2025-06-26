@@ -23,3 +23,21 @@ static : single copy in memory /class memebr
 non-static : create multiple copy based on object reaction / instance memeber
 
 
+Inheritance :
+
+inhertis propery from exsiting class to new class :
+
+from where we inherits the property iss called base/super/parent class
+
+in which class he inherit the proprty is called derived/sub/child class
+
+simple
+multiple
+multilevel
+hirarchical
+hybrid
+
+
+
+
+
