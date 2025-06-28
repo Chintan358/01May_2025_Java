@@ -10,7 +10,5 @@ public class O007_Encaptulation {
         e.setName("test");
 
         System.out.println(e.getId()+" "+e.getName());
-
-
     }
 }

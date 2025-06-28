@@ -38,6 +38,30 @@ hirarchical
 hybrid
 
 
+Polymorphism :
+
+one name has many forms ?:
+
+runtime : methodoverriding
+Compiletime : methodoverloading
+
+
+Abstraction :
+
+abstract class : partial
+-its contains both abstract and concreat method
+interface : fully
+- its contains abstract method only
+
+abstract method :
+method without body
+
+ex : public void show();
+
+
+concrete method :
+
+
 
 
 
