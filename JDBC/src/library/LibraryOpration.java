@@ -17,8 +17,6 @@ public class LibraryOpration {
         }
     }
 
-
-
     Scanner sc = new Scanner(System.in);
     public void addBook()
     {
@@ -27,12 +25,9 @@ public class LibraryOpration {
         System.out.println("Enter Qty : ");
         int qty = sc.nextInt();
 
-
-
-
         try {
 
-            PreparedStatement ps1 = cn.prepareStatement("select * from library where name=?");
+            PreparedStatement ps1 = cn.prepareStatement("select * from `library` where name=?");
             ps1.setString(1,name);
             ResultSet rs  =ps1.executeQuery();
             if(rs.next())
@@ -42,7 +37,8 @@ public class LibraryOpration {
             else {
                 String qry = "insert into library values(?,?,?)";
                 PreparedStatement ps = cn.prepareStatement(qry);
-                ps.setInt(1, 0);
+
+                   ps.setInt(1, 0);
                 ps.setString(2, name);
                 ps.setInt(3, qty);
 
@@ -69,7 +65,6 @@ public class LibraryOpration {
             throw new RuntimeException(e);
         }
     }
-
 
     public void deleteBook()
     {
