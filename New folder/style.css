@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(141, 141, 158, 1) 0%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+
+.main{
+    width: 100%;
+    height:70% ;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    width: 80%;
+    height: 100%;
+    float: right;
+    color:#FFF;
+    font-size:36px;
+    font-weight:bold;
+    font-family:'Comic Sans MS', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg{
+    width: 30%;
+    height: 50%;
+  background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+border-radius: 5px;
+box-shadow: 2px 5px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+}
+
+select{
+     width: 155px;
+    height: 20px;
+}
+
+button{
+    width: 75px;
+    height: 25px;
+    border: 1px solid black;
+}
