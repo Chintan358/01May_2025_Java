@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        const test = () => {
+
+            var uname = document.getElementById("uname").value
+            var content = document.getElementById("content")
+            content.innerHTML = uname
+        }
+
+        const sample = ()=>{
+             var uname = document.getElementById("uname")
+
+             uname.style.color="red"
+             uname.style.backgroundColor="yellow"
+             uname.style.height="30px"
+             uname.style.width="150px"
+        }
+
+        const sample1 = ()=>{
+             var uname = document.getElementById("email")
+
+             uname.style.color="green"
+             uname.style.backgroundColor="black"
+             uname.style.height="30px"
+             uname.style.width="150px"
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <input type="text" id="uname" onkeyup="test()" onfocus="sample()">
+     <input type="text" id="email" onkeyup="test1()" onfocus="sample1()">
+    <!-- <button onclick="test()">click me</button> -->
+    <div id="content"></div>
+
+</body>
+
+</html>
