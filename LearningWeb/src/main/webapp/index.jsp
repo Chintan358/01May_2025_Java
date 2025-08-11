@@ -13,7 +13,7 @@
 			<br>
 			<br>
 			
-			<form action="reg" method="post">
+			 <form action="reg" method="post">
 			
 			<input type="text" name="username" placeholder="enter username">
 			<input type="text" name="email" placeholder="enter email"> 

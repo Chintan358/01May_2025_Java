@@ -20,9 +20,10 @@ public class RegServlet extends HttpServlet {
 		String email = req.getParameter("email");
 		String pass = req.getParameter("pass");
 		
-		//System.out.println(username+" "+email+" "+pass);
-		
+		//System.out.println(username+" "+email+" "+pass);	
 		pw.write("<h1>Username : "+username+" </h1>");
 		pw.write("<h2>Email : "+email+"</h2>");
+		
+		
 	}
 }
