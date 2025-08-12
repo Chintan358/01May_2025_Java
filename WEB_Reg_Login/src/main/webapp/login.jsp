@@ -15,6 +15,7 @@
 			
 				<h2>Login Form</h2>
 				<hr>
+				<span class="text-danger">${err }</span>
 				<form action="login" method="post">
 				
 				<input type="text" name="uname" placeholder="enter username" class="form-control">

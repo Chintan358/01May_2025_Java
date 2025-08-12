@@ -42,16 +42,10 @@ public class RegController extends HttpServlet {
 			if(i>0)
 			{
 //				pw.write("Registration success");
-//				req.getRequestDispatcher("reg.jsp").include(req, resp);
-				
-				
+//				req.getRequestDispatcher("reg.jsp").include(req, resp);	
 				req.setAttribute("msg", "Registration success");
 				req.getRequestDispatcher("reg.jsp").forward(req, resp);
-			}
-			
-			
-		
-		
+			}			
 		
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
