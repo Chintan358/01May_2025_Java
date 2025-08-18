@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 /**
  * Servlet implementation class HomeServlet
  */
-@WebServlet("/home")
+@WebServlet("/       ")
 public class HomeServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
