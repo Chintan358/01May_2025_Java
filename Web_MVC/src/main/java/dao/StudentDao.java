@@ -3,7 +3,9 @@ package dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 import model.Student;
 
@@ -45,6 +47,34 @@ public class StudentDao {
 		}
 		
 		return i;
+	}
+	
+	public ArrayList<Student> displayStudents()
+	{
+		ArrayList<Student> students = new ArrayList<Student>();
+		try {
+			PreparedStatement ps =
+					cn.prepareStatement("select * from student");
+			ResultSet rs = ps.executeQuery();
+			while(rs.next())
+			{
+				Student st  = new Student();
+				st.setId(rs.getInt(1));
+				st.setName(rs.getString(2));
+				st.setEmail(rs.getString(3));
+				st.setPhone(rs.getString(4));
+				st.setPassword(rs.getString(5));
+				
+				students.add(st);
+			}
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return students;
 	}
 	
 	

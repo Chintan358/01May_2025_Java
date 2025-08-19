@@ -42,8 +42,9 @@
 			
 			<input type="submit" class="btn btn-success">
 			<input type="reset" class="btn btn-primary">
+				<a href="display" class="btn btn-danger">View details</a>
 			</form>
-			
+		
 			</div>
 			</div>
 </body>
