@@ -23,6 +23,7 @@
 	<th>Email</th>
 	<th>Phone</th>
 	<th>Password</th>
+	<th colspan="2">Action</th>
 	</tr>
 
 
@@ -37,6 +38,8 @@
 					<td><%=s.getEmail() %></td>
 					<td><%=s.getPhone() %></td>
 					<td><%=s.getPassword() %></td>
+					<td><a href="update?action=delete&id=<%=s.getId()%>" class="btn btn-danger">Delete</a></td>
+					<td><a href="update?action=update&id=<%=s.getId()%>" class="btn btn-primary">Update</a></td>
 					</tr>
 				<%}
 			%>
