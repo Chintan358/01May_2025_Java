@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="LearningWeb" path="/LearningWeb" reloadable="true" source="org.eclipse.jst.jee.server:LearningWeb"/><Context docBase="WEB_Reg_Login" path="/WEB_Reg_Login" reloadable="true" source="org.eclipse.jst.jee.server:WEB_Reg_Login"/><Context docBase="ServletChaining" path="/ServletChaining" reloadable="true" source="org.eclipse.jst.jee.server:ServletChaining"/><Context docBase="Web_MVC" path="/Web_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Web_MVC"/></Host>
+      <Context docBase="LearningWeb" path="/LearningWeb" reloadable="true" source="org.eclipse.jst.jee.server:LearningWeb"/><Context docBase="WEB_Reg_Login" path="/WEB_Reg_Login" reloadable="true" source="org.eclipse.jst.jee.server:WEB_Reg_Login"/><Context docBase="ServletChaining" path="/ServletChaining" reloadable="true" source="org.eclipse.jst.jee.server:ServletChaining"/><Context docBase="Web_MVC" path="/Web_MVC" reloadable="true" source="org.eclipse.jst.jee.server:Web_MVC"/><Context docBase="MVC_Crud" path="/MVC_Crud" reloadable="true" source="org.eclipse.jst.jee.server:MVC_Crud"/></Host>
     </Engine>
   </Service>
 </Server>

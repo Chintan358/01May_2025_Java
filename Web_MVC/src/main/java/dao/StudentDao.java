@@ -133,7 +133,7 @@ public class StudentDao {
 			ps.setString(4, st.getPassword());
 			ps.setInt(5, st.getId());
 			
-			i = ps.executeUpdate();
+			i = ps.executeUpdate();   
 			
 		
 		} catch (SQLException e) {
