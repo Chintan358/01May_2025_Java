@@ -8,45 +8,36 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import model.Student;
 
-@WebServlet("/reg")
-public class RegController extends HttpServlet {
+@WebServlet("/login")
+public class LoginController extends HttpServlet {
+	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		
-		String name = req.getParameter("name");
 		String email = req.getParameter("email");
-		String phone = req.getParameter("phone");
 		String pass = req.getParameter("pass");
 		
 		Student st = new Student();
-		st.setName(name);
 		st.setEmail(email);
 		st.setPassword(pass);
-		st.setPhone(phone);
-		
 		
 		StudentDao dao = new StudentDao();
 		
-		if(dao.isEmailExists(st))
+		Student std = dao.loginCheck(st);
+		if(std==null)
 		{
-			req.setAttribute("err", "Email alredy exists !!!");
-			req.getRequestDispatcher("index.jsp").forward(req, resp);
+			req.setAttribute("err", "Invalid credentials");
+			req.getRequestDispatcher("login.jsp").forward(req, resp);
 		}
-		else {
-			
-			int i = dao.addStudent(st);
-			if(i>0)
-			{
-				req.setAttribute("msg", "registration success !!!");
-				req.getRequestDispatcher("index.jsp").forward(req, resp);
-			}
-			
+		else
+		{
+			HttpSession session = req.getSession();
+			session.setAttribute("user", std.getName());
+			req.getRequestDispatcher("/display").forward(req, resp);
 		}
-		
-		
 		
 	}
 }

@@ -144,5 +144,51 @@ public class StudentDao {
 	}
 	
 	
+	public boolean isEmailExists(Student st)
+	{
+		boolean b = false;
+		try {
+			PreparedStatement ps = 
+					cn.prepareStatement("select * from student where email=?");
+			ps.setString(1, st.getEmail());
+			ResultSet rs = ps.executeQuery();
+			if(rs.next())
+			{
+				b = true;
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return b;
+	}
+	
+	
+	public Student loginCheck(Student st)
+	{
+		Student std = null;
+		try {
+			PreparedStatement ps = 
+					cn.prepareStatement("select * from student where email=? and password=?");
+			ps.setString(1, st.getEmail());
+			ps.setString(2, st.getPassword());
+			
+			ResultSet rs = ps.executeQuery();
+			if(rs.next())
+			{
+				std = new Student();
+				std.setId(rs.getInt(1));
+				std.setName(rs.getString(2));
+				std.setEmail(rs.getString(3));
+				std.setPassword(rs.getString(4));
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return std;
+	}
 	
 }

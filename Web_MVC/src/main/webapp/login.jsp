@@ -11,16 +11,13 @@
 			
 			<div class="container">
 			<div class="col-6 mx-auto mt-5 p-5 card">
-			<h2>Registration form</h2>
+			<h2>Login form</h2>
 			<hr>
 			<span class="text-success">${msg }</span>
 			<span class="text-danger">${err }</span>
-			<form action="reg" method="post">
+			<form action="login" method="post">
 			
-			<div class="form-group">
-			<label>Username</label>
-			<input type="text" name="name" class="form-control">
-			</div>
+			
 			
 			
 			<div class="form-group">
@@ -28,10 +25,6 @@
 			<input type="text" name="email" class="form-control">
 			</div>
 			
-			<div class="form-group">
-			<label>Phone</label>
-			<input type="number" name="phone" class="form-control">
-			</div>
 			
 			
 			<div class="form-group">
@@ -44,7 +37,7 @@
 			<input type="submit" class="btn btn-success">
 			<input type="reset" class="btn btn-primary">
 				<a href="display" class="btn btn-danger">View details</a>
-				<a href="login.jsp" class="btn btn-warning">Login here</a>
+				<a href="index.jsp" class="btn btn-warning">Register here</a>
 			</form>
 		
 			</div>
