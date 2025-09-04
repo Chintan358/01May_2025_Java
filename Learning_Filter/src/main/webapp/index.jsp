@@ -10,7 +10,6 @@
 		
 		<a href="master?action=home">home</a>
 		<a href="master?action=about">about</a>
-
-		<a href="ser1">Servlet1</a>
+		<a href="master?action=ser1">Servlet1</a>
 </body>
 </html>

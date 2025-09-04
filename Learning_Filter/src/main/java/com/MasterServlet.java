@@ -23,5 +23,9 @@ public class MasterServlet extends HttpServlet {
 		{
 			req.getRequestDispatcher("about.jsp").forward(req, resp);
 		}
+		else if(action.equals("ser1"))
+		{
+			req.getRequestDispatcher("ser1").forward(req, resp);
+		}
 	}
 }
