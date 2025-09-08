@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="controller.RegController"/>
     <fullyQualifiedTypeName name="model.Emp"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="dao.StudentDao"/>
     <fullyQualifiedTypeName name="model.Student"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletConfig"/>
@@ -22,4 +21,5 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

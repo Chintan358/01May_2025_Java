@@ -10,8 +10,20 @@
 <script type="text/javascript">
 
 	$(document).ready(function(){
-		
+		countries()
 	})
+	
+	const countries = ()=>{
+		$.get('countries',{},function(rt){
+			$("#country").html(rt)
+		})
+	}
+	
+	const states = (cid)=>{
+		$.get('states',{cid},function(rt){
+			$("#state").html(rt)
+		})
+	}
 	
 	const hello = ()=>{
 		
@@ -43,7 +55,20 @@
 	
 	<input type="text" placeholder="search here..." onkeyup="search(value)">
 	<div id="result"></div>
-	
+		
+		<hr>
+		
+		<select id="country" name="country" onchange="states(value)">
+		<option>---select country---</option>
+		</select>
+		
+		<select id="state" name="state">
+		<option>---select state---</option>
+		</select>
+		
+		<select id="city" name="city">
+		<option>---select City---</option>
+		</select>
 	
 </body>
 </html>
