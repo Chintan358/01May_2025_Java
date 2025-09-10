@@ -11,6 +11,7 @@
 		
 		$(document).ready(function(){
 			viewUsers()
+			$("#upbtn").hide()
 		})
 		
 		
@@ -20,7 +21,22 @@
 				const alldata = JSON.parse(rt)
 				var rows=""
 				alldata.map(ele=>{
-					rows+="<tr><td>"+ele.id+"</td><td>"+ele.uname+"</td><td>"+ele.email+"</td></tr>"
+					rows+="<tr><td>"+ele.id+"</td><td>"+ele.uname+"</td><td>"+ele.email+"</td><td><button class='btn btn-primary' onclick='userById("+ele.id+")'>Update</button></td><td><button class='btn btn-danger' onclick='deleteuser("+ele.id+")'>Delete</button></td></tr>"
+				})
+				
+				$("#tdata").html(rows)
+			})
+		}
+		
+		const search = (val)=>{
+			
+			
+			$.get("search",{val},function(rt){
+			
+				const alldata = JSON.parse(rt)
+				var rows=""
+				alldata.map(ele=>{
+					rows+="<tr><td>"+ele.id+"</td><td>"+ele.uname+"</td><td>"+ele.email+"</td><td><button class='btn btn-primary' onclick='userById("+ele.id+")'>Update</button></td><td><button class='btn btn-danger' onclick='deleteuser("+ele.id+")'>Delete</button></td></tr>"
 				})
 				
 				$("#tdata").html(rows)
@@ -43,6 +59,46 @@
 			
 		}
 		
+		const updateUser = ()=>{
+			var uid = $("#uid").val()
+			var uname = $("#uname").val()
+			var email = $("#email").val()
+			var pass = $("#pass").val()
+			
+			$.post("edit",{uid,uname,email,pass},function(rt){
+				alert(rt)
+				$("#uid").val("")
+				$("#uname").val("")
+				$("#email").val("")
+				$("#pass").val("")
+				
+				$("#upbtn").hide()
+				$("#smbtn").show()
+				viewUsers()
+			})
+			
+		}
+		
+		const userById = (uid)=>{
+			$.get("update",{uid,"action":"update"},function(rt){
+				const data = JSON.parse(rt)
+				$("#uid").val(data.id)
+				$("#uname").val(data.uname)
+				$("#email").val(data.email)
+				$("#pass").val(data.password)
+				
+				$("#upbtn").show()
+				$("#smbtn").hide()
+			})
+		}
+		
+		const deleteuser = (uid)=>{
+			$.get("update",{uid,"action":"delete"},function(rt){
+				alert(rt)
+				viewUsers()
+			})
+		}
+		
 		
 		</script>
 </head>
@@ -52,7 +108,7 @@
 					<div class="col-4  p-5 card mx-auto mt-5">
 					<h2>User Registration</h2>
 					<hr>
-					
+					<input type="hidden" id="uid">
 					<label>Uname</label>
 					<input type="text" name="uname" id="uname" class="form-control" placeholder="Enter Uname">
 					<label>Email</label>
@@ -60,7 +116,9 @@
 					<label>Password</label>
 					<input type="text" name="pass" id="pass" class="form-control" placeholder="Enter Password">
 					<hr>
-					<button class="btn btn-success" onclick="addUser()">Submit</button>
+					<button class="btn btn-success" id="smbtn" onclick="addUser()">Submit</button>
+					</br>
+					<button class="btn btn-success" id="upbtn" onclick="updateUser()">update</button>
 					</br>
 					<button class="btn btn-primary">Reset</button>
 					
@@ -69,13 +127,15 @@
 					<div class="col-7 p-5 card mx-auto mt-5">
 					<h2>User Details</h2>
 					<hr>
+					<input type="text" placeholder="Search...." class="form-control" onkeyup="search(value)">
+					<hr>
 					<table class="table">
 					<thead>
 					<tr>
 					<th>ID</th>
 					<th>Username</th>
 					<th>Email</th>
-					
+					<th colspan="2">Action</th>
 					</tr>
 					</thead>
 					
