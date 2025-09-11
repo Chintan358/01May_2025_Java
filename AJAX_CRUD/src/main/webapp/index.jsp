@@ -18,7 +18,7 @@
 		const viewUsers = ()=>{
 			$.get("display",{},function(rt){
 			
-				const alldata = JSON.parse(rt)
+				   = JSON.parse(rt)
 				var rows=""
 				alldata.map(ele=>{
 					rows+="<tr><td>"+ele.id+"</td><td>"+ele.uname+"</td><td>"+ele.email+"</td><td><button class='btn btn-primary' onclick='userById("+ele.id+")'>Update</button></td><td><button class='btn btn-danger' onclick='deleteuser("+ele.id+")'>Delete</button></td></tr>"
