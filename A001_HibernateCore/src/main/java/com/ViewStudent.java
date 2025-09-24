@@ -1,5 +1,7 @@
 package com;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -7,15 +9,10 @@ import org.hibernate.cfg.Configuration;
    
 
 
-public class AddStudent {
+public class ViewStudent {
 	public static void main(String[] args) {
 		
-		
-		Student st = new Student();
-		st.setId(1);
-		st.setName("Kanha");
-		st.setEmail("kanha@gmail.com");
-		
+	
 		
 		
 		Configuration cfg = new Configuration();
@@ -28,13 +25,18 @@ public class AddStudent {
 		
 		Session s  = sf.openSession();
 		Transaction tx = s.beginTransaction();
-		s.saveOrUpdate(st);
 		
-		tx.commit();
+//		Student st =  s.load(Student.class, 25); //exception
+//		Student st =  s.get(Student.class, 25);  //null
 		
+//		System.out.println(st);
+//		System.out.println(st.getId()+" "+st.getName()+" "+st.getEmail());
 		
+		List<Student> allstudent =  s.createQuery("from Student").list();
 		
-		
-		
+		for(Student st  :allstudent)
+		{
+			System.out.println(st.getId()+" "+st.getName()+" "+st.getEmail());
+		}
 	}
 }

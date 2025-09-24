@@ -1,5 +1,7 @@
 package com;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -7,15 +9,10 @@ import org.hibernate.cfg.Configuration;
    
 
 
-public class AddStudent {
+public class DeleteStudent {
 	public static void main(String[] args) {
 		
-		
-		Student st = new Student();
-		st.setId(1);
-		st.setName("Kanha");
-		st.setEmail("kanha@gmail.com");
-		
+	
 		
 		
 		Configuration cfg = new Configuration();
@@ -28,13 +25,13 @@ public class AddStudent {
 		
 		Session s  = sf.openSession();
 		Transaction tx = s.beginTransaction();
-		s.saveOrUpdate(st);
+	
+		Student st =  s.load(Student.class, 2); 
+
+		s.delete(st);
 		
 		tx.commit();
 		
-		
-		
-		
-		
+
 	}
 }
