@@ -12,9 +12,8 @@ public class AddStudent {
 		
 		
 		Student st = new Student();
-		st.setId(1);
-		st.setName("Kanha");
-		st.setEmail("kanha@gmail.com");
+		st.setName("Harshani");
+		st.setEmail("harshani@gmail.com");
 		
 		
 		
