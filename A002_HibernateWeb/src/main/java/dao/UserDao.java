@@ -34,4 +34,51 @@ public class UserDao {
 		}
 		return i;
 	}
+
+	public Object allUSers() {
+		
+		try {
+			
+			Session s  =sf.openSession();
+			Transaction tx  =s.beginTransaction();
+			return s.createQuery("from User").list();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+	public int deleteUser(int id) {
+			
+		int i=0;
+		try {
+			
+			Session s  =sf.openSession();
+			Transaction tx  =s.beginTransaction();
+			User u = s.load(User.class, id);
+			s.delete(u);
+			tx.commit();
+			i=1;
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return i;
+	}
+
+	public User userById(int id) {
+		
+	try {
+			
+			Session s  =sf.openSession();
+			Transaction tx  =s.beginTransaction();
+			User u = s.load(User.class, id);
+			return u;
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
 }

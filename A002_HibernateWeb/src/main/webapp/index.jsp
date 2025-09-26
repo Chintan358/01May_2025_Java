@@ -27,7 +27,7 @@
 				<br>
 				<input type="submit" class="btn btn-success">
 				<input type="reset" class="btn btn-primary">
-<!-- 				<a href="display" class="btn btn-warning">View All Emp</a> -->
+				<a href="display" class="btn btn-warning">View All Emp</a> 
 				</form>
 				</div>
 				</div>
