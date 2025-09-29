@@ -41,8 +41,8 @@
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-    <fullyQualifiedTypeName name="model.User"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="model.User"/>
     <fullyQualifiedTypeName name="dao.UserDao"/>
 </qualifiedTypeNameHistroy>
