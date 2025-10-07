@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="std" class="model.Student" autowire="byType">
+		<property name="id" value="1"></property>
+		<property name="name" value="Bansi"></property>
+		<property name="email" value="bansi@gmail.com"></property>
+		<property name="subjects">
+			<list>
+				<value>Java</value>
+				<value>Python</value>
+				<value>Php</value>
+
+			</list>
+		</property>
+		<property name="lang">
+			<set>
+				<value>Gujarati</value>
+				<value>Hindi</value>
+				<value>English</value>
+
+			</set>
+		</property>
+		<!-- <property name="address" ref="adr"></property>
+		<property name="marks">
+		<list>
+		<ref bean="m1"/>
+		<ref bean="m2"/>
+		</list>
+		</property> -->
+	</bean>
+
+
+	<bean id="adr" class="model.Address">
+	<property name="city" value="surat"></property>
+	<property name="state" value="gujarat"></property>
+	<property name="country" value="india"></property>
+	</bean>
+	
+	
+	<bean id="m1" class="model.Marks">
+	<property name="subjectname" value="Node"></property>
+	<property name="marks" value="50"></property>
+	</bean>
+	
+	<bean id="m2" class="model.Marks">
+	<property name="subjectname" value="React"></property>
+	<property name="marks" value="25"></property>
+	</bean>
+	
+	
+	
+	
+	
+
+</beans>

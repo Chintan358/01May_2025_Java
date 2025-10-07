@@ -6,6 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
    
 
 
@@ -32,7 +33,14 @@ public class ViewStudent {
 //		System.out.println(st);
 //		System.out.println(st.getId()+" "+st.getName()+" "+st.getEmail());
 		
-		List<Student> allstudent =  s.createQuery("from Student").list();
+//		List<Student> allstudent =  s.createQuery("from Student").list();
+		
+	
+		Query qry  =s.createQuery("from Student s where s.name=:name");
+		qry.setParameter("name", "bansi");
+		List<Student> allstudent =   qry.list();
+	
+		
 		
 		for(Student st  :allstudent)
 		{
