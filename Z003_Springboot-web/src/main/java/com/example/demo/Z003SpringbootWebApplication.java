@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Z003SpringbootWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Z003SpringbootWebApplication.class, args);
+	}
+
+}
