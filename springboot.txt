@@ -1,0 +1,41 @@
+# Crud opration
+
+create database
+Create Project : 
+->spring starter project
+-> springweb, spring data jpa, mysql, spring dev tools
+-> jaspert dependancy
+-> JSP folder structure-> src->main->webapp->WEB-INF->views
+
+setup application.proprties file :
+- set port number
+- data base configuration
+- JSP -> prefix and suffix
+
+**********************************
+MODEL : 
+Ex : student [id,name,email]
+
+REPO : 
+exp : interface StudentRepo extends jpaRepo(Student,Interger)
+
+service :
+ex: interface StudentService
+
+serviceimpl:
+ex : Class StduentServiceImpl impliments StudentService
+
+controller : 
+
+*******************
+create jsp as per your requeirement
+
+
+
+
+
+
+
+
+
+

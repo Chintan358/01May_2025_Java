@@ -32,6 +32,7 @@ public class UserServiceImpl implements UserService {
 		// TODO Auto-generated method stub
 		return repo.findById(id).orElseThrow();
 	}
+	
 
 	@Override
 	public void deleteUser(int id) {
