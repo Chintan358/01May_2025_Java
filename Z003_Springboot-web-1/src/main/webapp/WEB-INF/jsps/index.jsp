@@ -7,6 +7,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
 				<form:form action="addstudent" method="post" modelAttribute="student">
@@ -42,5 +44,11 @@
 				
 				
 				</table>
+				
+				
+				
+				<img alt="" src="img/logo-tops.png">
+				
+				
 </body>
 </html>
