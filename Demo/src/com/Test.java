@@ -24,17 +24,33 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-//		ArrayList<Integer> al = new ArrayList<>();
-//		al.add(10);
-//		al.add(2);
-//		al.add(45);
-//		al.add(32);
-//		al.add(46);
-//		al.add(85);
+		ArrayList<Integer> al = new ArrayList<>();
+		al.add(10);
+		al.add(2);
+		al.add(45);
+		al.add(32);
+		al.add(46);
+		al.add(85);
 		
 		
-//		List<Integer> k =  al.stream().map(ele->square(ele)).collect(Collectors.toList());
+		
+		
+//		ArrayList<Integer> k = new ArrayList<>();
+//		for(int a : al)
+//		{
+//			k.add(a*a);
+//		}
 //		System.out.println(k);
+		
+		
+		List<Integer> k =  al.stream().map(ele->square(ele)).collect(Collectors.toList());
+		System.out.println(k);
+		
+		
+		
+		
+		
+		
 //		
 //		List<Integer> k =  al.stream().filter(ele->oddCheck(ele)).collect(Collectors.toList());
 //		System.out.println(k);
@@ -50,17 +66,23 @@ public class Test {
 //		System.out.println(s);
 		
 		
-		List<Integer> al = Arrays.asList(10,25,4,12,49,9,64,32,45);
-		
-		List<Integer> k = al.stream().filter(ele->(Math.sqrt(ele)==(int)Math.sqrt(ele))).collect(Collectors.toList());
-		System.out.println(k);
+//		List<Integer> al = Arrays.asList(10,25,4,12,49,9,64,32,45);
+//		
+//		List<Integer> k = al.stream().filter(ele->(Math.sqrt(ele)==(int)Math.sqrt(ele))).collect(Collectors.toList());
+//		System.out.println(k);
 		
 		
 
+//		List<String> abc = Arrays.asList("abc","xyz","ffd","gfd","dfdd");
 		
-		
-		
-		
+		 int num = 3;
+		 int pow = 2;
+		 int result = 1;
+		 for(int i=1;i<=pow;i++)
+		 {
+			 result *= num;
+		 }
+		 System.out.println(result);
 		
 	}
 }

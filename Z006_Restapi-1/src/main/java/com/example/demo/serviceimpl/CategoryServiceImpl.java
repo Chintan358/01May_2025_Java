@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.model.Category;
 import com.example.demo.repo.CategoryRepo;
 import com.example.demo.service.CategoryService;
@@ -30,7 +31,7 @@ public class CategoryServiceImpl  implements CategoryService{
 	@Override
 	public Category catByid(int id) {
 		// TODO Auto-generated method stub
-		return categoryRepo.findById(id).orElseThrow();
+		return categoryRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("Category", "Id", id));
 	}
 
 }

@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.model.Employee;
 import com.example.demo.repo.EmpRepo;
 import com.example.demo.service.EmpService;
@@ -24,7 +25,7 @@ public class EmpServiceImpl implements EmpService{
 	@Override
 	public Employee empById(int id) {
 		// TODO Auto-generated method stub
-		return empRepo.findById(id).orElseThrow();
+		return empRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("Employee","Id",id));
 	}
 
 	@Override
@@ -36,7 +37,7 @@ public class EmpServiceImpl implements EmpService{
 	@Override
 	public Employee updateEmp(Employee e, int id) {
 		
-		Employee emp = empRepo.findById(id).orElseThrow();
+		Employee emp = empRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("Employee", "Id", id));
 		emp.setName(e.getName());
 		emp.setEmail(e.getEmail());
 		emp.setAge(e.getAge());
@@ -46,7 +47,8 @@ public class EmpServiceImpl implements EmpService{
 	@Override
 	public void deleteEmp(int id) {
 		
-		empRepo.deleteById(id);
+		Employee e =  empRepo.findById(id).orElseThrow(()->new ResourceNotFoundException("Employee","Id",id));
+		empRepo.delete(e);
 	}
 
 }
