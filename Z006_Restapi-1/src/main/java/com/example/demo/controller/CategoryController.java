@@ -2,7 +2,10 @@ package com.example.demo.controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
+import org.apache.catalina.mapper.Mapper;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,12 +25,15 @@ public class CategoryController {
 		@Autowired
 		CategoryService categoryService;
 		
+		@Autowired
+		ModelMapper modelMapper;
+		
 		@PostMapping("/categories")
 		public ResponseEntity<CategoryDto> addCategory(@RequestBody Category c)
 		{
 			Category createdCategory =  categoryService.addCategory(c);
 			
-			CategoryDto dto = categoryToDto(createdCategory);
+			CategoryDto dto = modelMapper.map(createdCategory, CategoryDto.class);
 			
 			return new ResponseEntity<>(dto,HttpStatus.CREATED);
 		}
@@ -38,27 +44,23 @@ public class CategoryController {
 		{
 			List<Category> categories = categoryService.viewCategory();
 			
-			List<CategoryDto> dtos = new ArrayList<>();
-			
-			for(Category c  :categories)
-			{
-				CategoryDto dt  = categoryToDto(c);
-				dtos.add(dt);
-			}
-			
+			List<CategoryDto> dtos = 
+					categories.stream().map((category)->modelMapper.map(category, CategoryDto.class)).collect(Collectors.toList());
 			
 			return new ResponseEntity<>(dtos,HttpStatus.OK);
 		}
 		
 		
-		public static CategoryDto categoryToDto(Category c)
-		{
-			CategoryDto dt  =new CategoryDto();
-			dt.setId(c.getId());
-			dt.setName(c.getName());
-			
-			return dt;
-		}
+//		public CategoryDto categoryToDto(Category c)
+//		{
+//			CategoryDto dt  =new CategoryDto();
+//			dt.setId(c.getId());
+//			dt.setName(c.getName());
+//			
+//			modelMapper.map(c,CategoryDto.class);
+//			
+//			return dt;
+//		}
 		
 		
 		
