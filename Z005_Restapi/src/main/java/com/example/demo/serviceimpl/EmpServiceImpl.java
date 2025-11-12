@@ -3,6 +3,10 @@ package com.example.demo.serviceimpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.exception.ResourceNotFoundException;
@@ -17,9 +21,24 @@ public class EmpServiceImpl implements EmpService{
 	EmpRepo empRepo;
 
 	@Override
-	public List<Employee> allEmps() {
+	public List<Employee> allEmps(int pagenumber, int pagesize,String sortby, String sorttype) {
 		// TODO Auto-generated method stub
-		return empRepo.findAll();
+		
+		Sort sort = null;
+		if(sorttype.equalsIgnoreCase("asc"))
+		{
+			sort = Sort.by(sortby).ascending();
+		}
+		else if(sorttype.equalsIgnoreCase("desc"))
+		{
+			sort = Sort.by(sortby).descending();
+		}
+		
+		Pageable pageble = PageRequest.of(pagenumber, pagesize, sort);
+		Page<Employee> pages = empRepo.findAll(pageble);
+		
+		List<Employee> allEmps = pages.getContent();
+		return allEmps;
 	}
 
 	@Override

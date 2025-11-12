@@ -16,23 +16,30 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
      
 import com.example.demo.model.Employee;
+import com.example.demo.repo.EmpRepo;
 import com.example.demo.service.EmpService;
 
 @RestController
 @RequestMapping("/employees")
-public class EmpController {
+public class EmpController /*~~(Could not parse as Java)~~>*/{
 
-    	
+   
 		@Autowired
 		EmpService empService;
 	
 		@GetMapping("")
-		public ResponseEntity<List<Employee>> getAllemp()
+		public ResponseEntity<List<Employee>> getAllemp(
+				@RequestParam(value = "pagenumber",defaultValue = "1" ) int pagenumber,
+				@RequestParam(value = "pagesize", defaultValue = "1" ) int pagesize,
+				@RequestParam(value = "sortby", defaultValue = "id") String sortby,
+				@RequestParam(value = "sorttype", defaultValue = "asc") String sorttype
+				)
 		{
-			 List<Employee> emps =  empService.allEmps();	 
+			 List<Employee> emps =  empService.allEmps(pagenumber,pagesize,sortby, sorttype);	 
 			 return new ResponseEntity<>(emps,HttpStatus.OK);
 		}
 		

@@ -7,7 +7,7 @@ import com.example.demo.model.Employee;
 public interface EmpService {
 	
 			
-		public List<Employee> allEmps();
+		public List<Employee> allEmps(int pagenumber, int pagesize,String sortby, String sorttype);
 		public Employee empById(int id);
 		public Employee addEmp(Employee e);
 		public Employee updateEmp(Employee e, int id);
