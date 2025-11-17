@@ -1,5 +1,8 @@
 package com.example.demo.service;
 
-public interface UserService {
+import com.example.demo.dto.UserDto;
 
+public interface UserService {
+	
+		public UserDto addUser(UserDto dto,int roleid);
 }
