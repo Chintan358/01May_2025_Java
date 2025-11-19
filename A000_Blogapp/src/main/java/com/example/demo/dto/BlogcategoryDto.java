@@ -5,10 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserDto {
-
+public class BlogcategoryDto {
+	
 	int id;
-	String username;
-	String password;
-	RoleDto role;
+	String name;
+
 }

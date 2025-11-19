@@ -14,62 +14,60 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.dto.RoleDto;
+import com.example.demo.dto.BlogcategoryDto;
 import com.example.demo.exception.APIResponse;
-import com.example.demo.service.RoleService;
-
-import jakarta.validation.Valid;
+import com.example.demo.service.BlogCategoryService;
 
 @RestController
-@RequestMapping("/roles")
-public class RoleController {
+@RequestMapping("/blogcategories")
+public class BlogCatController {
 	
 	@Autowired
-	RoleService service;
+	BlogCategoryService service;
 	
 	@PostMapping("")
-	public ResponseEntity<RoleDto> addRole(@Valid @RequestBody RoleDto dto) {
+	public ResponseEntity<BlogcategoryDto> addBlogCategory(@RequestBody BlogcategoryDto dto) {
 		
-		RoleDto RoleDto = service.addRole(dto);
+		BlogcategoryDto createdDto = service.addBlgCategory(dto);
 		
-		return new ResponseEntity<>(RoleDto,HttpStatus.CREATED);
+		return new ResponseEntity<>(createdDto,HttpStatus.CREATED);
 		
 	}
 	
 	@GetMapping("")
-	public ResponseEntity<List<RoleDto>> allStudent() {
+	public ResponseEntity<List<BlogcategoryDto>> allBlogcategory() {
 		
-		List<RoleDto> RoleDtos = service.roles();
+		List<BlogcategoryDto> allDtos = service.allBlogcategory();
 		
-		return new ResponseEntity<>(RoleDtos,HttpStatus.OK);
+		return new ResponseEntity<>(allDtos,HttpStatus.OK);
 		
 	}
 	
 	@GetMapping("/{id}")
-	public ResponseEntity<RoleDto> roleById(@PathVariable("id") int id) {
+	public ResponseEntity<BlogcategoryDto> blogCatById(@PathVariable("id") int id) {
 		
-		RoleDto dto = service.role(id);
+		BlogcategoryDto dto = service.blogcategoryById(id);
 		
 		return new ResponseEntity<>(dto,HttpStatus.OK);
 		
 	}
 	
 	@PutMapping("/{id}")
-	public ResponseEntity<RoleDto> updateRole(@RequestBody RoleDto dto,@PathVariable("id") int id) {
+	public ResponseEntity<BlogcategoryDto> update(@RequestBody BlogcategoryDto dto,@PathVariable("id") int id) {
 		
-		RoleDto updateDto = service.updateRole(dto, id);
+		BlogcategoryDto createdDto = service.update(dto, id);
 		
-		return new ResponseEntity<>(updateDto,HttpStatus.CREATED);
+		return new ResponseEntity<>(createdDto,HttpStatus.CREATED);
 		
 	}
 	
 	@DeleteMapping("/{id}")
-	public ResponseEntity<APIResponse> deleteRole(@PathVariable("id") int id) {
+	public ResponseEntity<APIResponse> deleteBlogCategory(@PathVariable("id")int id) {
 		
-		service.deleteRole(id);
+		service.delete(id);
 		
 		APIResponse api = new APIResponse();
-		api.setMessage("Role Delete");
+		api.setMessage("BlogCategory Deleted");
 		api.setSuccess("success");
 		
 		return new ResponseEntity<>(api,HttpStatus.OK);
