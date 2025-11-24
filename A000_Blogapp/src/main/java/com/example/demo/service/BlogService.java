@@ -14,4 +14,5 @@ public interface BlogService {
 	public void deleteBlog(int id);
 	public List<BlogDto> blogbyCategory(int catid);
 	public List<BlogDto> blogByUser(int userid);
+	public BlogDto uploadImage(BlogDto dto);
 }

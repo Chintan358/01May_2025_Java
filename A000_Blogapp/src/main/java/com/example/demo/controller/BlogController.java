@@ -1,9 +1,15 @@
 package com.example.demo.controller;
 
-import java.util.List;
 
+import java.io.InputStream;
+import java.util.List;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,27 +18,31 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.example.demo.dto.BlogDto;
 import com.example.demo.exception.APIResponse;
 import com.example.demo.service.BlogService;
+import com.example.demo.service.ImageService;
 
 @RestController
 @RequestMapping("/blogs")
 public class BlogController {
 
-    private final BlogCatController blogCatController;
-
-    private final UserController userController;
+   
 	
 	@Autowired
 	BlogService blogService;
+	
+	@Autowired
+	ImageService imageService;
+	
+	@Value("${project.image}")
+	String path;
 
-    BlogController(UserController userController, BlogCatController blogCatController) {
-        this.userController = userController;
-        this.blogCatController = blogCatController;
-    }
+    
 
 	@PostMapping("/category/{id}")
 	public ResponseEntity<BlogDto> addBlog(@RequestBody BlogDto blogDto,@PathVariable("id") int id)
@@ -85,6 +95,28 @@ public class BlogController {
 	{
 		List<BlogDto> all = blogService.blogByUser(id);
 		return new ResponseEntity<>(all,HttpStatus.OK);
+	}
+	
+	@PostMapping("/upload/{blogid}")
+	public ResponseEntity<BlogDto> uploadImage(@PathVariable("blogid") int blogid,
+			@RequestParam("file") MultipartFile file
+			)
+	{
+		String imagename =  imageService.uploadImage(path, file);
+		BlogDto dto =   blogService.blog(blogid);
+		dto.setImage(imagename);
+		 BlogDto upladted =  blogService.uploadImage(dto);
+		 return new ResponseEntity<>(dto,HttpStatus.OK);
+	}
+	
+	@GetMapping(produces = MediaType.IMAGE_JPEG_VALUE,value = "/image/{imgname}")
+	public ResponseEntity<Resource> getImage(@PathVariable("imgname") String imagename)
+	{
+		InputStream is =  imageService.getImage(path, imagename);
+		Resource resource = new InputStreamResource(is);
+		return ResponseEntity.ok()
+                .contentType(MediaType.IMAGE_JPEG)
+                .body(resource);
 	}
 	
 

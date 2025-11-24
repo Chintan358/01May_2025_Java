@@ -108,5 +108,15 @@ public class BlogServiceImpl implements BlogService {
 
 	}
 
+
+	@Override
+	public BlogDto uploadImage(BlogDto dto) {
+		
+		Blog b = mapper.map(dto, Blog.class);
+		
+		
+		return mapper.map(blogRepo.save(b), BlogDto.class);
+	}
+
 	
 }
