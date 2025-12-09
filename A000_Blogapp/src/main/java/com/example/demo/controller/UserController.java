@@ -29,16 +29,13 @@ public class UserController {
 	@Autowired
 	UserService service;
 	
-	@Bean
-	public PasswordEncoder encoder1()
-	{
-		return new BCryptPasswordEncoder();
-	}
+	@Autowired
+	PasswordEncoder encoder;
 
 	@PostMapping("/role/{id}")
 	public ResponseEntity<UserDto> addUser(@RequestBody UserDto dto, @PathVariable("id") int roleid)
 	{
-		dto.setPassword(encoder1().encode(dto.getPassword()));
+		dto.setPassword(encoder.encode(dto.getPassword()));
 		UserDto createduser =  service.addUser(dto, roleid);
 		return new ResponseEntity<>(createduser,HttpStatus.CREATED);
 	}
