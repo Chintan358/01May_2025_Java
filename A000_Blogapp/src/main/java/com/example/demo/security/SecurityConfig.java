@@ -1,7 +1,10 @@
 package com.example.demo.security;
 
+import java.net.http.HttpRequest;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
@@ -69,23 +72,38 @@ public class SecurityConfig {
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception
 	{
-		http
-		.csrf()
-		.disable()
-		.authorizeHttpRequests()
-		.requestMatchers("/blogs","/users/**","/login","/refresh-token/**")
-		.permitAll()
-		.requestMatchers("/blogs/category/**")
-		.hasRole("USER")
-		.requestMatchers("/blogcategories/**")
-		.hasAnyRole("ADMIN")
-		.anyRequest()
-		.authenticated().and()
-		.exceptionHandling(exception->exception.authenticationEntryPoint(authenticationEntryPoint))
-		.sessionManagement(session->session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-		.addFilterBefore(authenticationFilter,UsernamePasswordAuthenticationFilter.class);
-	
-		return http.build();
+		 http
+	        .csrf(csrf -> csrf.disable())
+
+	        .authorizeHttpRequests(auth -> auth
+
+	            // --------------------- PUBLIC ROUTES ---------------------
+	            .requestMatchers("/blogs", "/auth/**").permitAll()
+	            .requestMatchers(HttpMethod.POST, "/users/**").permitAll()
+	            .requestMatchers(HttpMethod.GET, "/users").permitAll()
+	           
+	            // --------------------- USER ROUTES -----------------------
+	            .requestMatchers(HttpMethod.PUT, "/users/**").hasRole("USER")
+	            .requestMatchers(HttpMethod.DELETE, "/users/**").hasRole("USER")
+	            .requestMatchers(HttpMethod.GET, "/users/**").hasRole("USER")
+	            .requestMatchers("/blogs/category/**").hasRole("USER")
+	            .requestMatchers("/blogcategories/**").authenticated()
+	            // --------------------- ADMIN ROUTES -----------------------
+	         
+	            // --------------------- OTHER ROUTES -----------------------
+	            .anyRequest().authenticated()
+	        )
+
+	        // Exception handling
+	        .exceptionHandling(ex -> ex.authenticationEntryPoint(authenticationEntryPoint))
+
+	        // Stateless session
+	        .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+
+	        // JWT / Custom filter before UsernamePasswordAuthenticationFilter
+	        .addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class);
+
+	    return http.build();
 	}
 
 }
