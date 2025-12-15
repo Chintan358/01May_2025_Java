@@ -78,16 +78,16 @@ public class SecurityConfig {
 	        .authorizeHttpRequests(auth -> auth
 
 	            // --------------------- PUBLIC ROUTES ---------------------
-	            .requestMatchers("/blogs", "/auth/**").permitAll()
+	            .requestMatchers("/auth/**").permitAll()
 	            .requestMatchers(HttpMethod.POST, "/users/**").permitAll()
-	            .requestMatchers(HttpMethod.GET, "/users").permitAll()
+	            .requestMatchers(HttpMethod.GET, "/users","/reviews/**","/blogs/**").permitAll()
 	           
 	            // --------------------- USER ROUTES -----------------------
 	            .requestMatchers(HttpMethod.PUT, "/users/**").hasRole("USER")
 	            .requestMatchers(HttpMethod.DELETE, "/users/**").hasRole("USER")
 	            .requestMatchers(HttpMethod.GET, "/users/**").hasRole("USER")
-	            .requestMatchers("/blogs/category/**").hasRole("USER")
-	            .requestMatchers("/blogcategories/**").authenticated()
+
+	            .requestMatchers("/blogcategories/**","/blogs/**","/reviews/**").authenticated()
 	            // --------------------- ADMIN ROUTES -----------------------
 	         
 	            // --------------------- OTHER ROUTES -----------------------

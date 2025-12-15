@@ -8,12 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.dto.BlogDto;
+import com.example.demo.dto.UserDto;
 import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.model.Blog;
 import com.example.demo.model.BlogCategory;
 import com.example.demo.model.User;
 import com.example.demo.repo.BlogCategoryRepo;
 import com.example.demo.repo.BlogRepo;
+import com.example.demo.repo.UserRepo;
 import com.example.demo.service.BlogCategoryService;
 import com.example.demo.service.BlogService;
 import com.example.demo.service.UserService;
@@ -36,12 +38,15 @@ public class BlogServiceImpl implements BlogService {
 	@Autowired
 	BlogCategoryRepo blogCategoryRepo;
 	
+	@Autowired
+	UserRepo repo;
+	
 	
 	@Override
-	public BlogDto addBlog(BlogDto blogDto, int catid, int userid) {
+	public BlogDto addBlog(BlogDto blogDto, int catid, String username) {
 		
 		blogDto.setImage(null);
-		blogDto.setUser(userService.userById(userid));
+		blogDto.setUser(mapper.map(repo.findByUsername(username), UserDto.class));
 		blogDto.setCategory(blogCategoryService.blogcategoryById(catid));	
 		return mapper.map(blogRepo.save(mapper.map(blogDto, Blog.class)), BlogDto.class);
 	}

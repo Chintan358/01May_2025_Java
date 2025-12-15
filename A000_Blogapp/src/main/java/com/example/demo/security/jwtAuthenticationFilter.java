@@ -17,6 +17,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @Component
 public class jwtAuthenticationFilter extends OncePerRequestFilter {
@@ -46,12 +47,14 @@ public class jwtAuthenticationFilter extends OncePerRequestFilter {
 			
 			if(jwtService.validateToken(token))
 			{
+				System.out.println("authenticated...");
 				String username = jwtService.getUsernamefromToken(token);
 				UserDetails details =  service.loadUserByUsername(username);
-			
+				HttpSession session = request.getSession();
+				session.setAttribute("username", username);
 				if(SecurityContextHolder.getContext().getAuthentication()==null)
 				{
-					System.out.println(details.getAuthorities());
+					
 					UsernamePasswordAuthenticationToken authentication = 
 							new UsernamePasswordAuthenticationToken(username, null, details.getAuthorities());
 					SecurityContextHolder.getContext().setAuthentication(authentication);

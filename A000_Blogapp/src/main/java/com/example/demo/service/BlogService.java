@@ -7,7 +7,7 @@ import com.example.demo.dto.UserDto;
 
 public interface BlogService {
 	
-	public BlogDto addBlog(BlogDto blogDto, int catid, int userid);
+	public BlogDto addBlog(BlogDto blogDto, int catid, String username);
 	public List<BlogDto> blogs();
 	public BlogDto blog(int id);
 	public BlogDto updateBlog(BlogDto blogDto, int catid, int userid,int bid);

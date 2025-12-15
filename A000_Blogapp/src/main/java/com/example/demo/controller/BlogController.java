@@ -11,6 +11,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +27,9 @@ import com.example.demo.dto.BlogDto;
 import com.example.demo.exception.APIResponse;
 import com.example.demo.service.BlogService;
 import com.example.demo.service.ImageService;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 @RestController
 @RequestMapping("/blogs")
@@ -43,15 +47,18 @@ public class BlogController {
 	String path;
 
     
-
+	@PreAuthorize("hasAnyRole('USER')")
 	@PostMapping("/category/{id}")
-	public ResponseEntity<BlogDto> addBlog(@RequestBody BlogDto blogDto,@PathVariable("id") int id)
+	public ResponseEntity<BlogDto> addBlog(@RequestBody BlogDto blogDto,@PathVariable("id") int id,HttpServletRequest req)
 	{
-		BlogDto createBlog =  blogService.addBlog(blogDto, id, 3);
+		HttpSession session = req.getSession();
+		String username = (String) session.getAttribute("username");
+		
+		BlogDto createBlog =  blogService.addBlog(blogDto, id, username);
 		return new ResponseEntity<>(createBlog,HttpStatus.CREATED);
 	}
 	
-	@GetMapping("")
+	@GetMapping("/")
 	public ResponseEntity<List<BlogDto>> allblogs()
 	{
 		List<BlogDto> blogs = blogService.blogs();
@@ -66,6 +73,7 @@ public class BlogController {
 		return new ResponseEntity<>(blogdto,HttpStatus.OK);
 	}
 	
+	@PreAuthorize("hasAnyRole('USER')")
 	@PutMapping("/category/{cid}/{bid}")
 	public ResponseEntity<BlogDto> updateBlog(@RequestBody BlogDto dto, @PathVariable("cid") int cid,@PathVariable("bid") int bid)
 	{
@@ -73,6 +81,7 @@ public class BlogController {
 		return new ResponseEntity<>(blogdto,HttpStatus.CREATED);
 	}
 	
+	@PreAuthorize("hasAnyRole('USER')")
 	@DeleteMapping("/{id}")
 	public ResponseEntity<APIResponse> deleteBlog(@PathVariable("id") int id)
 	{
@@ -82,6 +91,7 @@ public class BlogController {
 		resp.setSuccess("True");
 		return new ResponseEntity<>(resp,HttpStatus.OK);
 	}
+	
 	
 	@GetMapping("/category/{id}")
 	public ResponseEntity<List<BlogDto>> blogbyCategory(@PathVariable("id") int id)
@@ -97,6 +107,7 @@ public class BlogController {
 		return new ResponseEntity<>(all,HttpStatus.OK);
 	}
 	
+	@PreAuthorize("hasAnyRole('USER')")
 	@PostMapping("/upload/{blogid}")
 	public ResponseEntity<BlogDto> uploadImage(@PathVariable("blogid") int blogid,
 			@RequestParam("file") MultipartFile file
