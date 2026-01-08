@@ -5931,3 +5931,143 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2025-12-15 13:22:24,367 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-12-15 13:22:24,382 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-12-15 13:22:24,388 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\A000_Blogapp\src\test\resources
+2025-12-22 12:20:46,823 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-12-22 12:22:57,069 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-12-22 12:23:10,635 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-12-22 12:23:16,539 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [364])
+2025-12-22 12:23:16,540 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\aopalliance-1.0.jar
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\guice-5.1.0.jar
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpclient-4.5.14.jar
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpcore-4.4.16.jar
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jansi-2.4.1.jar
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jcl-over-slf4j-1.7.36.jar
+2025-12-22 12:23:16,541 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-artifact-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-builder-support-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-compat-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-core-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-embedder-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-builder-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-plugin-api-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-repository-metadata-3.9.9.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-api-1.9.22.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-12-22 12:23:16,542 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-impl-1.9.22.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-named-locks-1.9.22.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-provider-3.9.9.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-spi-1.9.22.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-file-1.9.22.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-http-1.9.22.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-12-22 12:23:16,543 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-util-1.9.22.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-3.9.9.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-builder-3.9.9.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-shared-utils-3.4.2.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-0.0.7.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-1.2.0.jar
+2025-12-22 12:23:16,544 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-cipher-2.0.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-classworlds-2.8.0.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-component-annotations-2.1.0.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-interpolation-1.27.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-sec-dispatcher-2.0.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-utils-3.5.1.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-xml-3.0.1.jar
+2025-12-22 12:23:16,545 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-file-3.5.3.jar
+2025-12-22 12:23:16,546 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-3.5.3.jar
+2025-12-22 12:23:16,546 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-shared-3.5.3.jar
+2025-12-22 12:23:16,546 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-provider-api-3.5.3.jar
+2025-12-22 12:23:16,548 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.8.jre [31])
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\com.google.guava_33.4.8.jre.jar
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [613])
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\slf4j.api_2.0.17.jar
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [46])
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [55])
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2025-12-22 12:23:16,549 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [79])
+2025-12-22 12:23:16,550 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2025-12-22 12:23:16,550 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2025-12-22 12:23:16,550 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-12-22 12:23:16,550 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.3 [32])
+2025-12-22 12:23:16,550 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.3.jar
+2025-12-22 12:23:16,552 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Chintan_wok\01May_2025_java\Z003_Springboot-web":
+2025-12-22 12:23:16,553 [Worker-1: Launching Z003_Springboot-web (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always package
+2025-12-22 12:23:58,233 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-22 12:23:58,255 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-22 12:23:58,262 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z003_Springboot-web\src\test\resources
+2025-12-26 11:39:28,816 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-12-31 11:38:59,560 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-12-31 11:40:10,429 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:10,452 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:10,462 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\A000_Blogapp\src\test\resources
+2025-12-31 11:40:11,801 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-12-31 11:40:12,003 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:12,004 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:12,013 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:12,014 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:12,651 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-12-31 11:40:12,712 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:12,713 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:12,717 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:12,718 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:13,962 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-12-31 11:40:14,026 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:14,028 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:14,158 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:14,159 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:14,387 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-12-31 11:40:14,419 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:14,420 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:14,427 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:14,427 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:18,492 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.4.4.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.4.4.Final
+2025-12-31 11:40:18,521 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:18,523 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:18,528 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:18,529 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:19,070 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2025-12-31 11:40:19,090 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:19,091 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:19,094 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:19,095 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\JSTL\src\test\resources
+2025-12-31 11:40:19,586 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:19,587 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:19,590 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:19,591 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:19,851 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:19,852 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:19,856 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:19,857 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:20,451 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:20,452 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-12-31 11:40:20,466 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:20,468 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:20,643 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:20,644 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:20,647 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-12-31 11:40:20,648 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-12-31 11:40:22,545 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:22,562 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:22,566 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z003_Springboot\src\test\resources
+2025-12-31 11:40:24,661 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:24,692 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:24,700 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z003_Springboot-web\src\test\resources
+2025-12-31 11:40:26,898 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:26,926 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-12-31 11:40:26,981 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z003_Springboot-web-1\src\test\resources
+2025-12-31 11:40:28,555 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:28,577 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 63 resources from src\main\resources to target\classes
+2025-12-31 11:40:32,688 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z004_TemplateIntegration\src\test\resources
+2025-12-31 11:40:34,169 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:34,189 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:34,194 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z005_Restapi\src\test\resources
+2025-12-31 11:40:35,808 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:35,837 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:35,842 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z006_Restapi-1\src\test\resources
+2025-12-31 11:40:37,245 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-31 11:40:37,262 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-31 11:40:37,267 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Chintan_wok\01May_2025_java\Z007_SpringSecurity\src\test\resources
+2026-01-05 12:28:59,028 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
