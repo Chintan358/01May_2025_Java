@@ -1,0 +1,32 @@
+package com.example.demo.serviceimpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.model.Question;
+import com.example.demo.service.QuestionService;
+
+@Service
+public class QuestionServiceImpl implements QuestionService {
+
+	@Override
+	public Question addQuestion(Question question) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Question> all() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Question get(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

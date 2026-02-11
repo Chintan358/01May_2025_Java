@@ -1,0 +1,31 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.example.demo.model.Question;
+import com.example.demo.service.QuestionService;
+
+@Controller
+public class QuestionController {
+	
+	@Autowired
+	QuestionService questionService;
+	
+	@PostMapping("/")
+	public ResponseEntity<Question> addQuestion(@RequestBody Question question) {
+		Question question2 =  questionService.addQuestion(question);
+		return new ResponseEntity<>(question2,HttpStatus.CREATED);
+	}
+	
+	public ResponseEntity<List<Question>> allQuestion() {
+		List<Question> allquestion = questionService.all();
+		return new ResponseEntity<>(allquestion, HttpStatus.OK);
+	}
+}

@@ -1,0 +1,344 @@
+2026-02-07 11:32:46,287 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2026-02-07 11:39:47,618 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Questions:0.0.1-SNAPSHOT @ C:\Users\Tops\Desktop\Microservice\Questions\Questions\pom.xml.
+2026-02-07 11:39:50,993 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Questions/src/main/java
+2026-02-07 11:39:50,997 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/main/resources
+2026-02-07 11:39:51,012 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/main/resources
+2026-02-07 11:39:51,021 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Questions/src/test/java
+2026-02-07 11:39:51,025 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/test/resources
+2026-02-07 11:39:53,608 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2026-02-07 11:39:53,615 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-02-07 11:39:54,601 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Questions:0.0.1-SNAPSHOT @ C:\Users\Tops\Desktop\Microservice\Questions\Questions\pom.xml.
+2026-02-07 11:39:56,773 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Questions/src/main/java
+2026-02-07 11:39:56,775 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/main/resources
+2026-02-07 11:39:56,777 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/main/resources
+2026-02-07 11:39:56,778 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Questions/src/test/java
+2026-02-07 11:39:56,779 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/test/resources
+2026-02-07 11:39:59,030 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 1.00 sec 
+2026-02-07 11:39:59,127 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-02-07 11:40:00,740 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Questions:0.0.1-SNAPSHOT @ C:\Users\Tops\Desktop\Microservice\Questions\Questions\pom.xml.
+2026-02-07 11:40:03,134 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Questions/src/main/java
+2026-02-07 11:40:03,135 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/main/resources
+2026-02-07 11:40:03,140 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/main/resources
+2026-02-07 11:40:03,140 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Questions/src/test/java
+2026-02-07 11:40:03,141 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Questions/src/test/resources
+2026-02-07 11:40:07,230 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 3.00 sec 
+2026-02-07 11:40:09,163 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 11:40:09,197 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 11:40:09,203 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 11:42:13,866 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 11:42:13,893 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 11:42:13,903 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 11:57:16,401 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 11:57:16,415 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 11:57:16,425 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 11:58:27,240 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 11:58:27,246 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 11:58:27,254 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 11:59:58,415 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 11:59:58,420 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 11:59:58,425 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:00:12,079 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:00:12,084 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:00:12,096 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:01:11,451 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:01:11,457 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:01:11,462 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:01:55,765 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:01:55,821 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:01:55,838 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:01:59,974 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:01:59,984 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:00,009 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:02:07,496 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:02:07,500 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:07,504 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:02:11,908 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:02:11,913 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:11,918 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:02:15,588 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:02:15,594 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:15,598 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:02:31,410 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:02:31,448 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:31,454 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:02:38,156 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:02:38,239 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:38,244 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:02:50,983 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:02:50,988 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:02:50,991 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:03:43,539 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:03:43,545 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:03:43,549 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:04:08,778 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:04:08,783 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:04:08,788 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:04:18,505 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:04:18,510 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:04:18,514 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:05:00,396 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:05:00,401 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:05:00,404 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:05:18,046 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:05:18,050 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:05:18,054 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:05:43,371 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:05:43,375 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:05:43,378 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:06:18,968 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:06:18,973 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:06:18,977 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:06:46,441 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:06:46,445 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:06:46,450 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:06:50,294 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:06:50,311 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:06:50,314 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:07:44,440 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:07:44,446 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:07:44,451 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:07:46,628 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:07:46,637 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:07:46,641 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:08:33,090 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:08:33,096 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:08:33,101 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:08:51,846 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:08:51,852 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:08:51,855 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:09:17,455 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:09:17,459 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:09:17,462 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:09:59,232 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:09:59,238 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:09:59,241 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:11:29,776 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:11:29,781 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:11:29,786 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:12:13,683 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:12:13,742 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:12:13,746 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:12:14,838 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:12:14,862 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:12:14,865 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:13:15,205 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:13:15,210 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:13:15,214 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:13:55,874 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:13:55,897 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:13:55,900 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:14:08,555 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:14:08,572 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:14:08,576 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:14:12,313 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:14:12,326 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:14:12,329 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:15:00,469 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:15:00,475 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:15:00,478 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:15:11,671 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:15:11,677 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:15:11,680 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:15:34,171 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:15:34,184 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:15:34,189 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:16:00,352 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:16:00,356 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:16:00,359 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:16:33,886 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:16:33,891 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:16:33,895 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:16:38,370 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:16:38,382 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:16:38,394 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:16:46,595 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:16:46,600 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:16:46,603 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:17:01,953 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:17:01,957 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:17:01,960 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:17:40,026 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:17:40,031 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:17:40,034 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:18:03,560 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:18:03,565 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:18:03,568 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:18:23,504 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:18:23,509 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:18:23,513 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:19:00,800 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:19:00,807 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:19:00,810 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:19:03,886 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:19:03,891 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:19:03,895 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:19:08,822 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:19:08,827 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:19:08,830 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:19:37,165 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:19:37,169 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:19:37,172 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:22:55,425 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:22:55,436 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:22:55,440 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-07 12:29:46,314 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-07 12:29:46,345 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-07 12:29:46,350 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:20:44,648 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-02-10 11:25:15,324 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:25:15,345 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:25:15,351 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:25:40,810 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:25:40,820 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:25:40,825 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:25:56,780 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:25:56,786 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:25:56,792 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:26:05,386 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:26:05,391 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:26:05,398 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:26:37,778 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:26:37,783 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:26:37,788 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:28:50,099 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:28:50,106 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:28:50,110 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:28:54,126 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:28:54,151 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:28:54,158 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 11:59:38,688 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 11:59:38,770 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 11:59:38,776 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 12:00:24,052 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Questions:0.0.1-SNAPSHOT @ C:\Users\Tops\Desktop\Microservice\Questions\Questions\pom.xml.
+2026-02-10 12:00:26,387 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 12:00:26,389 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 12:00:26,395 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 12:00:34,697 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 12:00:34,723 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 12:00:34,729 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 12:27:40,352 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2026-02-10 12:27:47,814 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [364])
+2026-02-10 12:27:47,826 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2026-02-10 12:27:47,828 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\aopalliance-1.0.jar
+2026-02-10 12:27:47,828 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\guice-5.1.0.jar
+2026-02-10 12:27:47,829 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpclient-4.5.14.jar
+2026-02-10 12:27:47,829 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpcore-4.4.16.jar
+2026-02-10 12:27:47,829 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jansi-2.4.1.jar
+2026-02-10 12:27:47,830 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jcl-over-slf4j-1.7.36.jar
+2026-02-10 12:27:47,833 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-artifact-3.9.9.jar
+2026-02-10 12:27:47,833 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-builder-support-3.9.9.jar
+2026-02-10 12:27:47,833 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-compat-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-core-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-embedder-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-builder-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-plugin-api-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-repository-metadata-3.9.9.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-api-1.9.22.jar
+2026-02-10 12:27:47,834 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-connector-basic-1.9.22.jar
+2026-02-10 12:27:47,835 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-impl-1.9.22.jar
+2026-02-10 12:27:47,835 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-named-locks-1.9.22.jar
+2026-02-10 12:27:47,835 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-provider-3.9.9.jar
+2026-02-10 12:27:47,835 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-spi-1.9.22.jar
+2026-02-10 12:27:47,835 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-file-1.9.22.jar
+2026-02-10 12:27:47,835 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-http-1.9.22.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-wagon-1.9.22.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-util-1.9.22.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-3.9.9.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-builder-3.9.9.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-shared-utils-3.4.2.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-0.0.7.jar
+2026-02-10 12:27:47,836 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-1.2.0.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-cipher-2.0.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-classworlds-2.8.0.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-component-annotations-2.1.0.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-interpolation-1.27.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-sec-dispatcher-2.0.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-utils-3.5.1.jar
+2026-02-10 12:27:47,837 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-xml-3.0.1.jar
+2026-02-10 12:27:47,838 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-file-3.5.3.jar
+2026-02-10 12:27:47,838 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-3.5.3.jar
+2026-02-10 12:27:47,838 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-shared-3.5.3.jar
+2026-02-10 12:27:47,838 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-provider-api-3.5.3.jar
+2026-02-10 12:27:47,846 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.8.jre [31])
+2026-02-10 12:27:47,848 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\com.google.guava_33.4.8.jre.jar
+2026-02-10 12:27:47,848 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [613])
+2026-02-10 12:27:47,848 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\slf4j.api_2.0.17.jar
+2026-02-10 12:27:47,848 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [46])
+2026-02-10 12:27:47,849 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2026-02-10 12:27:47,850 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [55])
+2026-02-10 12:27:47,850 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2026-02-10 12:27:47,850 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [79])
+2026-02-10 12:27:47,851 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2026-02-10 12:27:47,851 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2026-02-10 12:27:47,852 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2026-02-10 12:27:47,852 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.3 [32])
+2026-02-10 12:27:47,853 [Worker-5: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.3.jar
+2026-02-10 12:27:47,862 [Worker-5: Launching Questions] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Tops\Desktop\Microservice\Questions\Questions":
+2026-02-10 12:27:47,865 [Worker-5: Launching Questions] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always package
+2026-02-10 12:29:28,198 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-02-10 12:29:28,213 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-02-10 12:29:28,218 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Tops\Desktop\Microservice\Questions\Questions\src\test\resources
+2026-02-10 12:31:52,902 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [364])
+2026-02-10 12:31:52,903 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2026-02-10 12:31:52,903 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\aopalliance-1.0.jar
+2026-02-10 12:31:52,904 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\guice-5.1.0.jar
+2026-02-10 12:31:52,904 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpclient-4.5.14.jar
+2026-02-10 12:31:52,904 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpcore-4.4.16.jar
+2026-02-10 12:31:52,904 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jansi-2.4.1.jar
+2026-02-10 12:31:52,904 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jcl-over-slf4j-1.7.36.jar
+2026-02-10 12:31:52,904 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-artifact-3.9.9.jar
+2026-02-10 12:31:52,905 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-builder-support-3.9.9.jar
+2026-02-10 12:31:52,905 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-compat-3.9.9.jar
+2026-02-10 12:31:52,905 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-core-3.9.9.jar
+2026-02-10 12:31:52,905 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-embedder-3.9.9.jar
+2026-02-10 12:31:52,905 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-3.9.9.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-builder-3.9.9.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-plugin-api-3.9.9.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-repository-metadata-3.9.9.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-api-1.9.22.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-connector-basic-1.9.22.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-impl-1.9.22.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-named-locks-1.9.22.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-provider-3.9.9.jar
+2026-02-10 12:31:52,906 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-spi-1.9.22.jar
+2026-02-10 12:31:52,907 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-file-1.9.22.jar
+2026-02-10 12:31:52,908 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-http-1.9.22.jar
+2026-02-10 12:31:52,908 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-wagon-1.9.22.jar
+2026-02-10 12:31:52,908 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-util-1.9.22.jar
+2026-02-10 12:31:52,908 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-3.9.9.jar
+2026-02-10 12:31:52,908 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-builder-3.9.9.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-shared-utils-3.4.2.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-0.0.7.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-1.2.0.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-cipher-2.0.jar
+2026-02-10 12:31:52,909 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-classworlds-2.8.0.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-component-annotations-2.1.0.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-interpolation-1.27.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-sec-dispatcher-2.0.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-utils-3.5.1.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-xml-3.0.1.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-file-3.5.3.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-3.5.3.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-shared-3.5.3.jar
+2026-02-10 12:31:52,910 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-provider-api-3.5.3.jar
+2026-02-10 12:31:52,912 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.8.jre [31])
+2026-02-10 12:31:52,912 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\com.google.guava_33.4.8.jre.jar
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [613])
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\slf4j.api_2.0.17.jar
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [46])
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [55])
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2026-02-10 12:31:52,913 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [79])
+2026-02-10 12:31:52,914 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2026-02-10 12:31:52,914 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2026-02-10 12:31:52,914 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2026-02-10 12:31:52,914 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.3 [32])
+2026-02-10 12:31:52,914 [Worker-12: Launching Questions] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\sts-4.31.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.3.jar
+2026-02-10 12:31:52,917 [Worker-12: Launching Questions] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Tops\Desktop\Microservice\Questions\Questions":
+2026-02-10 12:31:52,917 [Worker-12: Launching Questions] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always package

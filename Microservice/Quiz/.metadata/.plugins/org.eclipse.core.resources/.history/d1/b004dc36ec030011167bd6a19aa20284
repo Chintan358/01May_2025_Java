@@ -1,0 +1,13 @@
+package com.example.demo.model;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="quiz")
+public class Quiz {
+	
+		@Id
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
+		int id;
+		String tilte;
+}

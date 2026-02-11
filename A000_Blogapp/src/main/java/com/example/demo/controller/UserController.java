@@ -22,8 +22,11 @@ import com.example.demo.dto.UserDto;
 import com.example.demo.exception.APIResponse;
 import com.example.demo.service.UserService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 @RestController
 @RequestMapping("/users")
+@Tag(name = "User API", description = "User management APIs")
 public class UserController {
 	
 	@Autowired
